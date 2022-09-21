@@ -9,9 +9,9 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
-            {/* <Link to='/ticketpage'>Add New Meetup</Link> */}
+            <Link to='/'>Home</Link>
           </li>
-          {/* <li>
+          {/* <li> 
             <Link to='/favorites'>My Favorites</Link>
           </li> */}
         </ul>

@@ -46,7 +46,7 @@ function parseScrapeData(dateInput) {
     const dates=[]
     const URLs=[]
 
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < 5; i++) {
         var dateObjectIncremented = addWeeks(i, new Date(dateObject))
         // console.log(dateObjectIncremented)
         var parsedDataforIncrement = parseScrapeData(dateObjectIncremented)

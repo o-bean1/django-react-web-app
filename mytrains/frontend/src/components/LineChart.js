@@ -4,6 +4,9 @@ import { Chart as ChartJS } from "chart.js/auto";
 
 function LineChart({ chartData, chartOptions }) {
   return <Line data={chartData} options={{
+    backgroundColor: ['rgba(200,230,255,1)'],
+            borderColor: ['rgba(25,230,255,1)'],
+      color: ['rgba(200,25,1)'],
     plugins: {
       title: {
         display: true,
@@ -12,7 +15,8 @@ function LineChart({ chartData, chartOptions }) {
       legend: {
         display: false,
      }
-    }
+    }, 
+    
   }}/>;
 }
 

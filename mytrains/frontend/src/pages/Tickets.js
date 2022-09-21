@@ -49,7 +49,7 @@ function TicketPage() {
             label: "Price",
             data: priceLabels,
             backgroundColor: [
-              "rgba(192,192,192,1)"
+              "rgba(16 ,47,92,1)"
             ],
             borderColor: "black",
             borderWidth: 2,
@@ -85,18 +85,23 @@ function TicketPage() {
 
   return (
     <div>
-      <div>TicketPage</div>
+      {/* <div>TicketPage</div> */}
 
       {/* <div>selected date:{location.state.date}</div> */}
       {/* <div> dates to investigate :{location.state.dates}</div> */}
-      <li>
+      {/* <li>
             <Link to='/'>Home</Link>
-          </li>
-      <div style={{ width: 700 }}>
+          </li> */}
+        < div className="jumbotron2 jumbotron-fluid position-relative" >
+          <div className="olis-container">
+      
         <LineChart chartData={userData} />
+      <div className="olis-container-2">
+        The best time to buy a ticket is __ weeks in advance!
       </div>
-
-      <div>
+      </div>
+</div>
+      {/* <div>
         {tickets.map((ticket, index) => (
           <h3 key={index}>{ticket.price}</h3>
         ))}
@@ -106,7 +111,7 @@ function TicketPage() {
         {tickets.map((ticket, index) => (
           <h3 key={index}>{ticket.date}</h3>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }

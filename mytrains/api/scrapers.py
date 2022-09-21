@@ -4,7 +4,7 @@ import urllib.request
 def scrape(URLs): 
     prices = []
 
-    for i in range(0,3):
+    for i in range(0,5):
         baseURL = URLs[i]
         print('here srcaping',baseURL,i)
         u = urllib.request.urlopen(
